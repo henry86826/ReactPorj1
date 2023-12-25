@@ -61,7 +61,6 @@ function Products() {
               console.log('eee',e)
               return (
                 <>
-                <p>{category[e]}</p>
                 <li className="position-relative categoryList" key={e.id} style={{display:'flex', justifyContent:'center',alignItems:'center', width:'15%', padding:'0'}} >
                   <Link className='position-relative categoryText' style={{fontSize:'1.5rem'}}> { e } </Link>
                 </li>

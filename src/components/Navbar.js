@@ -20,14 +20,6 @@ function Navbar({cartData, pathIsHome, setPathIsHome}) {
                   {/* <a className="nav-link ps-0" href="./product.html">Lorem ipsum</a> */}
                   <NavLink className="nav-link navbar" to='/products' style={ pathIsHome ? {margin:'0 auto', justifyContent: 'center', fontWeight:'550', color:'white'} :{margin:'0 auto', justifyContent: 'center', color:'black', fontWeight:'550'}}> 產品列表</NavLink>
                 </li>
-                <li className="nav-item active">
-                  {/* <a className="nav-link ps-0" href="./product.html">Lorem ipsum</a> */}
-                  <NavLink className="nav-link" to='/products' style={pathIsHome ? {margin:'0 auto', justifyContent: 'center', fontWeight:'550', color:'white'} : {margin:'0 auto', justifyContent: 'center', color:'black', fontWeight:'550'}}> 產品列表</NavLink>
-                </li>
-                <li className="nav-item active">
-                  {/* <a className="nav-link ps-0" href="./product.html">Lorem ipsum</a> */}
-                  <NavLink className="nav-link" to='/products' style={pathIsHome ? {margin:'0 auto', justifyContent: 'center', fontWeight:'550', color:'white'} : {margin:'0 auto', justifyContent: 'center', color:'black', fontWeight:'550'}}> 產品列表</NavLink>
-                </li>
               </ul>
             </div>
             <NavLink className="nav-link position-relative" to='/cart'style={{marginTop:'0.2rem'}} >
