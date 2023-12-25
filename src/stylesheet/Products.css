@@ -1,0 +1,12 @@
+.LinkText {
+  text-decoration: none;
+  color: purple;
+}
+
+.ProductItme:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+/*# sourceMappingURL=Products.css.map */

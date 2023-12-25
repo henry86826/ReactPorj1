@@ -1,0 +1,20 @@
+.sliderItemText{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    height: 20%;
+}
+
+.Link{
+    &:hover{
+        transform:scale(1.1);
+        transition: 0.6s;
+    }
+}
+
+.SwiperIntro{
+    margin-top: 1rem;
+    text-align: center;
+    // background-color: red;
+}

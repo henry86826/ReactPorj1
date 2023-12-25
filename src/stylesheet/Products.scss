@@ -1,0 +1,11 @@
+.LinkText{
+    text-decoration: none;
+    color: purple;
+}
+
+.ProductItme{
+    &:hover{
+        transform: scale(1.1);
+        transition: 0.8s;
+    }
+}
